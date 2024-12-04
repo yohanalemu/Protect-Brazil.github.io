@@ -1,0 +1,242 @@
+body {
+    background-color:#CDCDCD;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+}
+
+p {
+  font-family: "DM Sans", serif;
+  font-size:18px;
+  font-weight: 300;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color:#01210C;
+    margin:0;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+  }
+  .navbar-dark .navbar-brand {
+    color: white !important;
+  }
+
+  .navbar.nav-item a:hover {
+    color:#1E3055;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    color:#01210C;
+  }
+
+/*CRIME DATA */
+  
+.page-title {
+    font-size:50px;
+    padding-left:50px;
+    color:white;
+    padding-top:100px;
+    width:50%;
+}
+
+.sub-title {
+    color:white;
+    font-size:18px;
+    padding-top:100px;
+    padding-right:50px;
+    width:50%;
+}
+
+.header-container {
+    height:40vh;
+    background-color:#01210C;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+
+}
+
+.get-in-touch {
+  background-color:#1D6035;
+  color: white;
+  padding: 40px 20px;
+}
+
+/*ROOT CAUSES*/
+.card-container {
+  display:flex;
+  justify-content: center;
+  gap:30px;
+ 
+  margin:50px auto;
+  width:80%;
+}
+
+.card-image {
+  max-width:60%;
+}
+
+.card-image img{
+  width:100%;
+}
+
+.card-content {
+  max-width:40%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-content h2 {
+  font-size:40px;
+}
+
+.bottom-border {
+  border-top: #B3A536 solid 3px;
+  margin:auto;
+  width:70%; 
+
+}
+
+.card-container.three {
+  background-color:#1D6035;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap:0;
+}
+
+.card-container.three > .card-content {
+  color:white;
+ max-width: 50%;
+ justify-content: flex-start;
+ align-items: flex-start;
+ padding:10px 50px;
+}
+
+ .card-image.three {
+  padding:20px 50px;
+  display: flex;
+  max-width:100%;
+  justify-content: flex-end;
+}
+
+.card-image.three img {
+  width:40%;
+}
+
+@media screen and (width < 1000px) {
+
+  .card-container.three {
+  justify-content:center;
+  }
+
+  .card-container.three > .card-content {
+   max-width: 100%;
+
+  }
+
+  .card-image.three {
+    width:100%;
+    display: flex;
+    max-width:100%;
+    justify-content: center;
+  }
+
+  .card-container {
+    flex-direction:column;
+  }
+
+  .card-image {
+    max-width:100%;
+  }
+
+  .card-content {
+    max-width:100%;
+  }
+  
+}
+
+
+.stats {
+  display:flex;
+  justify-content:space-evenly;
+  color:white;
+  padding:50px auto;
+  background-color: #B3A536;
+  gap:20px;
+}
+
+.box h4, h5 {
+  font-size:40px;
+}
+
+.box p{
+  font-size:20px;
+}
+
+.about.grid-section {
+  margin:100px;
+  
+}
+
+
+/*FOOTER*/
+.footer {
+  background-color:#01210C;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #f8f9fa;
+}
+
+.footer .form-control {
+  border-radius: 0;
+  border: none;
+  padding: 10px;
+}
+
+.footer .btn {
+  border-radius: 0;
+}
+
+.footer .container {
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .footer .row {
+    text-align: center;
+  }
+}
+
+
+
